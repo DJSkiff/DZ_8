@@ -51,8 +51,8 @@ def get_birthdays_per_week(users):
     result_list = []
     for key, value in resul.items():
         result_list.append(f'{key}: {value}')
-        result = ';'.join(result_list)
-    print(type(result))
+        resul = ';'.join(result_list)
+    print(resul)
 
     # print(current_date_birt.weekday())
     # print(d.date())
